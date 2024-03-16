@@ -43,3 +43,15 @@
   Name ArcGIS Server Admin Ports > finish
 8) Test REST Services directory - enter https://[vm external ip]/arcgis/rest/services. Bypass security warning (under advanced or "thisisunsafe")
 9) Shut down server - Either use start menu in remote desktop or select "stop" in dot menu next to VM in GCP console. Same menu can be used to turn on server.
+
+Outcomes:
+VM is activated and configured on Google Cloud Platform using Shawn's custom image
+All necessary firewall rules to allow basic operations of remote desktop and ArcGIS Server are set, both in GC Console and the VM itself
+REST services directory confirmed to be accessible
+Server is shut down to avoid using Cloud credits
+
+Next steps:
+Exercise is complete, will continue with checklist
+
+Resources:
+Shawn's video tutorial about getting ArcGIS server running on VM (includes a version of this workflow): https://www.youtube.com/watch?v=v89KyxIyPQA
