@@ -11,7 +11,7 @@
   Open firewall to HTTP and HTTPS traffic (check boxes)
   Click create - machine takes several minutes to be created
 4) Set Windows password - Compute Engine > VM Instances > arrow next to "RDP" > Set Windows password. Enter username ("student" in this case). After hitting "set", Windows password will be displayed
-  <b>Write this down! This is the only time it is displayed!</b> To reset, just re-run process again.
+  Write this down! This is the only time it is displayed! To reset, just re-run process again.
 5) Alter VM firewall rules:
   Fleming IT blocks default remote desktop port (3389), so configure VM to accept traffic from 444. Possibly not required in real world environment.
     From VM instances, click "set up firewall rules" > "create firewall rule" (top)
