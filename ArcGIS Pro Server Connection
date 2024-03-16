@@ -1,0 +1,13 @@
+1) In ArcGIS Pro - Insert > Server > New ArcGIS Server
+2) Enter server URL (http://[VM IP]/arcgis) plus username and password (located in week 7 folder). Ignore certificate issues. Don't save login (IP changes whenever server is turned on)
+3) Server and contents should now be accessible under "servers" in catalog pane
+4) Dragging server contents into map displays it in ArcGIS Pro
+
+Outcomes:
+Server data is now accessible through ArcGIS Pro's catalog pane
+
+Next Steps:
+none
+
+Resources:
+none
