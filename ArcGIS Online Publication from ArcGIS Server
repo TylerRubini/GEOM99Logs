@@ -1,0 +1,16 @@
+1) Access REST endpoint for server (https://[Server IP]/arcgis/rest/services/) and obtain URL of service to publish to ArcGIS Online.
+2) Log into AGOL > Content > New Item
+3) Select URL and insert REST URL of service into field
+4) Name, tag, etc.
+5) Service has now been added as a map image layer in AGOL.
+
+Note: do not try to access when server is shut down, could result in AGOL marking item as broken.
+
+Outcomes:
+World Cities test data has been published to my AGOL account from my server
+
+Next steps:
+none
+
+Resources:
+none
