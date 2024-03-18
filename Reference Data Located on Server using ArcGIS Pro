@@ -1,0 +1,18 @@
+1) Connect to server in ArcGIS Pro (see resources section for log link) and bring in relevant data to new map
+2) Place data in the same location on both the local computer and the server (c:/gisworkspace/Canada in this case)
+3) Right-click server in catalog pane, select publish, map service, then select map containing relevant data. Fill in details.
+3.1) If there is no publish option, double-check that correct port has been included when connecting to server
+4) Click analyze and resolve any errors/warnings. Remove base maps from project to avoid warnings. Ensure that data is being referenced if intent is not to copy to server.
+5) Click publish. This may take a few minutes.
+6) Refresh server in catalog to check that upload was successful.
+
+Outcomes:
+CanadaDemo data has been copied manually to location on server and on local PC.
+CanadaDemo data has been referenced using ArcGIS Pro.
+Data can be accessed under the servers dropdown in the catalogue pane.
+
+Next steps:
+Exercise complete, move forward with checklist
+
+Resources:
+Log showing how to connect to server in ArcGIS Pro: https://github.com/TylerRubini/GEOM99Logs/blob/main/ArcGIS%20Pro%20Server%20Connection
