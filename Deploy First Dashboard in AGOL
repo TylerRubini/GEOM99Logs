@@ -1,0 +1,27 @@
+1) Open map page > create web app (right side) > Dashboards
+2) Fill in title, tags, summary
+3) Configure map (upper left of map frame) - Under settings, enable "initial view and bookmarks", legend, zoom in/out. Map will now display legend, bookmarks button, and zoom controls.
+4) Add serial chart element via "add element" (left side). Click add element button in appropriate location on Dashboard.
+5) Select layer to use, then configure.
+  Data > set categories from "grouped values" and "type" as category field
+  Value Axis > minimum value 1, axis values set to integers only, label visibility true
+  Series > set colour options for graph bars
+  General > add title (enable "last update text" if layer will be updated regularly)
+6) Set map to trigger chart update based on extent - Map frame > configure (upper left) > map actions > filter > toggle serial chart
+7) Add list element via "add element" (left side). Click add element button in appropriate location on Dashboard.
+8) Select layer to use, then configure
+  Data > sort by > Alias
+  List > Line item template > field list (looks like this: {.}). Choose Alias and Category, stack them.
+  Actions > Flash > toggle relevant layer on. Toggle "show popup".
+9) Set map to trigger list update based on extent. Map frame > configure (upper left) > map actions > filter > toggle list
+10) Arrange elements (drag item button at top left of elements)
+11) Add header element via "add element" (left side). Place at top of page and fill in title, change colours, etc.
+
+Outcomes:
+Example dashboard showing healthcare facilities in LA has been configured in my AGOL account
+
+Next steps:
+Attempt other Dashboard tutorials or demos
+
+Resources:
+Tutorial followed: https://www.esri.com/arcgis-blog/products/ops-dashboard/mapping/create-first-arcgis-dashboards/
