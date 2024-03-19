@@ -1,0 +1,21 @@
+1) Download StatsCan language data and join to provinces data on province English name field in ArcGIS Pro. Export new feature class containing language data.
+2) Export feature class to shapefile and place shapefile in same place on both local PC and server.
+2.1) Important: after exporting, remove feature class from ArcGIS Pro and import shapefile from hard drive into project, otherwise referencing will not work. Spent too long figuring this one out.
+3) Reference map data as per standard workflow (see link #1 in resources for workflow log)
+4) Add CanadaLanguage to AGOL using server URL as per standard workflow (see link #2 in resources for workflow log)
+5) Create web map containing CanadaLanguage layer.
+6) Add CanadaLanguage to AGOL again, this time remembering to add the layer number to the end of the URL.
+7) Create web map containing properly-added CanadaLanguage layer.
+8) Alter symbology in AGOL: right hand side, choose English name field as attribute to map by
+9) Save map
+
+Outcomes:
+I now have a styled map of Canadian provinces with linked census language data to use in a dashboard
+
+Next steps:
+Create dashboard around map
+
+Resources:
+Referencing workflow: https://github.com/TylerRubini/GEOM99Logs/blob/main/Reference%20Data%20Located%20on%20Server%20using%20ArcGIS%20Pro
+AGOL from ArcGIS Server workflow: https://github.com/TylerRubini/GEOM99Logs/blob/main/ArcGIS%20Online%20Publication%20from%20ArcGIS%20Server
+Statscan data used: https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=9810021801
