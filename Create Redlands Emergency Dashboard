@@ -1,0 +1,37 @@
+1) Create new web map, add relevant layers from "add layer" button. In this case, search for Redlands, CA, then add the following layers that are available locally: Police, Ambulances, Fire, Emergency Facilities, Reported Incidents - Dispatch.
+   Also add World Traffic Service (Esri layer).
+2) Reorder: Incidents, Police, Fire, Ambulances, Emergency Facilities, World Traffic (front to back)
+3) Set refresh intervals per layer to ensure up-to-date data (setting in properties pane). Used 0.3 minutes for top 4 layers. No interval for facilities (little change over time). Traffic refreshes every 5 minutes (matches refresh rate of data itself).
+4) Configure pop-ups. Setting is on right hand vertical bar. Title > delete text > add field button ("{}") > select "incident"
+5) In fields list (just below previous setting) remove all but Open Date, Location, and Synopsis, so that only these appear in popups.
+6) Configure feature search - Click map properties on left vertical toolbar > item details > settings > web map
+7) Alter hint text (under application settings) to "Place or Facility Name". Check "by layer", add layer to search if necessary. Enter: Emergency facilities - Name - Contains. This allows user to search for facilities in map by name.
+8) Create Dashboard. From web map item page: Create Web App > Dashboards
+9) Top left of map > configure > settings > activate "initial view and bookmarks", "layer visibility", "basemap switcher", "search", "zoom in/out"
+10) Change colours of elements by clicking "Theme" on left vertical bar. Can hit + sign on palette to save colours for later use.
+11) Add element > click top > add header
+12) Click "view" (left bar) > header > add selector > category selector > categories from "Features" > select emergency facilities. Set line item template to facility name.
+13) Click "selector" (left bar) > activate "label for none" > enter "All Facilities"
+14) Click "actions" (left bar) > "flash" > activate map > same with "zoom". Adds drop-down on upper right that will select and zoom to facilities.
+15) Add incident count - View > Body > add element > indicator > select "reported incidents" layer.
+16) Data type = "statistic", Statistic = "count". Filter = "operational status" > value = "open".
+17) Indicator options > change middle text colour > fill in bottom text. Indicator now shows current incidents in real time.
+18) Add list of incidents - View > Body > add element > list > "reported incidents". Sort by "open date" > descending. Filter by operational status, value = "open".
+19) Click "list" (left side). Add fields "incident" and "open date" to line item template, replacing what's there. Modify text formatting if necessary. Add name under general tab. Activate "last update text".
+20) Click "action" (left side) > show pop-up > activate map. Same with flash and pan.
+21) Add serial chart for incident types - View > Body > Add element > Serial chart > reported incidents
+22) Categories from = "grouped values". Category field = "Incident".
+23) Series tab > bar colors > "by category". Apply colours can be used to change colour ramp. Edit title from general tab.
+24) Filter to show incidents of a certain type - Actions > filter > turn on indicator, list, and reported incidents layer of map.
+25) Resize and rearrange elements as needed
+26) Share with organization
+
+Outcomes:
+I now have a configured web map of Redlands emergency facilities and incidents, as well as a configured dashboard showing the number of incidents, a list of incidents with their date and type, and a chart showing how many of each incident have occurred.
+
+Next steps:
+Continue experimenting with Dashboards
+
+Resources:
+Esri tutorial followed - https://learn.arcgis.com/en/projects/monitor-real-time-emergencies/
+Final dashboard - https://fleming.maps.arcgis.com/home/item.html?id=87fafa7e66e04a12b3567441b6bc2e59
