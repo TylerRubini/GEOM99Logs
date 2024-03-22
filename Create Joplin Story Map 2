@@ -1,0 +1,21 @@
+1) Create a zoomed-out map of distance to transit in Joplin. Zoomed out because Joplin itself has no fixed-route transit, so I wanted to show it in context with other semi-nearby cities. Add map to new StoryMap page.
+2) Create a map of employment mix in Joplin. Insert it into a new StoryMap page.
+3) Create a map of employment-housing mix in Joplin. Insert it into a new StoryMap page.
+4) Spent some time experimenting with different variables that I can compare by showing their ratio to one another
+5) Generated a map of total households per block group vs. zero car households per block group. Click "styles" on right bar, add relevant attributes using "+ Field" button. Modify symbology via style options. Chose to "show values"
+   for zero values because that indicates an area with zero households that lack a car. Chose to go with an even darker shade of red for those to indicate their position on the heirarchy of "high % of no car households" to 
+   "low % of same". Insert it into new StoryMap page.
+6) Generated a map of the same variables, but rendered as a relationship instead of a ratio. Option can be selected in the style menu, below the attributes.
+7) Spent more time exploring various combinations of variables. Chose to generate a map of zero-car households vs. low wage employees rendered as a ratio. For some reason, this map is refusing to generate a legend, despite other maps based off 
+   the same data having no such problem.
+8) For future, remember to disable unnecessary fields when creating web maps for StoryMap use. Clicking on block groups isn't super helpful if there's a massive list of data to sort through before finding what's relevant.
+9) Went back and filled in text for whichever Joplin maps I hadn't yet annotated in the StoryMap.
+
+Outcomes:
+I now have a ten page StoryMap, mostly text-annotated, showing walkability and associated factors in the Joplin, MO area.
+
+Next Steps:
+Continue experimenting with different ways to show data in AGOL maps, including different symbology. Try different StoryMap layouts that aren't sidecar. Maybe try to recreate or modify the Windsor walkability storymap you came across.
+
+Resources:
+Joplin StoryMap: https://storymaps.arcgis.com/stories/67cf11b04f9b4872a9d3bf3ed52eea67
