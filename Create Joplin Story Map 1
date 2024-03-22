@@ -1,0 +1,17 @@
+1) Create web map with National Walkability Data embedded as layers (original AGOL source in resources section)
+2) Create new StoryMap using the sidecar layout.
+3) Insert main overview map (entire USA) on first page to accompany general overview of index in text form. Use menu at top of media frame to add media and modify that media after it has been placed.
+4) Insert overview map of USA housing and employment mix to accompany further breakdown of factors that go into the index.
+Note: it seems to be necessary (or at least easier) to create individual web maps in AGOL to embed, rather than modifying the same web map multiple times for different pages of the StoryMap. This can be easily done by just saving the map as a new one, 
+then modifying layers/symbology/etc. Also, try to have your map centred on the point you want before you start generating new ones, that way you aren't fiddling with the map to get a consistent centring across StoryMap pages.
+5) Create AGOL map centred on Joplin, MO, with overall index layer displayed. Insert into new StoryMap page to accompany general text overview of walkability patterns in the region.
+6) Create AGOL map centred on Joplin with intersection density displayed. Switch to gray colour ramp because it reminds me of asphalt. Insert into new StoryMap page to accompany overview of intersection density in the region.
+
+Outcomes:
+I have four pages of a StoryMap showing both overall indexes and walkability factors for the USA and Joplin, MO
+
+Next steps:
+Create more maps and add more pages showing different walkability factors
+
+Resources:
+The original source of the index and associated data: https://fleming.maps.arcgis.com/home/item.html?id=f16f5e2f84884b93b380cfd4be9f0bba
